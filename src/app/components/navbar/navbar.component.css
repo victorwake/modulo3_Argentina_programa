@@ -1,0 +1,40 @@
+
+ul{
+    list-style-type: none;
+}
+
+li {
+    background-color: #ffffff;
+    float: left;
+    margin-right: 10px;
+    padding: 0 4px;
+    border-radius: 5px;
+}
+
+#navbarNav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    background-color: #ffffff;
+}
+
+#navbarNav a{
+    color: #0000008e;
+    text-decoration: none;
+    font-weight: bold;
+    margin: -2px;
+    font-size: 15px;
+}
+
+#navbarNav a:hover{
+    color: #000000;
+}
+
+@media screen and (max-width: 600px) {
+    #navbarNav a{
+        font-size: 13px;
+    }
+}
